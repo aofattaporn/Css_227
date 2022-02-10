@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>tic-tact-toe</title>
+
+   <script src="Lab04-tictactoe.js" defer></script>
+
+   <style>
+      *{
+         font-size: 10px;
+         box-sizing: border-box;
+
+      }
+
+      main{
+         height: 30rem;
+         display: grid;
+         grid-template-columns: 10rem 10rem 10rem;
+         grid-template-rows: 10rem 10rem 10rem;
+         grid-gap: 1rem;
+      }
+
+      div:hover{
+         background-color: rgb(212, 249, 237);
+      } 
+
+      div{
+         background-color: cadetblue;
+         padding-bottom: 2rem;
+         text-align: center;
+      }
+
+      .x{
+         font-size: 4rem;
+         font-weight: bold;
+      }
+
+      
+ 
+
+
+   </style>
+</head>
+<body>
+
+   <header>
+      <h1>TIC TAC TOE GAME</h1>
+   </header>
+
+   <main>
+
+      <div class="box box-1"></div>      
+      <div class="box box-2"></div>      
+      <div class="box box-3"></div>      
+
+      <div class="box box-4"></div>      
+      <div class="box box-5"></div>      
+      <div class="box box-6"></div>      
+
+      <div class="box box-7"></div>      
+      <div class="box box-8"></div>      
+      <div class="box box-9"></div>      
+
+      <button>reset</button>
+
+   </main>
+   
+</body>
+</html>

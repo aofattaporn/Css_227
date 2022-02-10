@@ -1,0 +1,38 @@
+Js is event deiven 
+________________
+
+** document.querySelector('css selector');    -> ref. tage name (by return one tage)
+
+** document.querySelectorAll('css selector'); -> ref. all tage name 
+
+? addEventListener(event name, function name);
+   -  for get listener of event 
+   -  https://developer.mozilla.org/en-US/docs/Web/Events 
+
+? removeEventListener(event name, function name);
+
+event name 
+
+defer - อยย่าพึ่งรับทำงาน รอ DOM ก่อน 
+async -  ทำงานไปเลย 
+________________
+
+attributr of html tranform a pproperty of JS 
+
+________________ 
+
+* chang class 
+
+classList - add a Class 
+classList - remove 
+________________
+
+
+currenttarget - object ตอดอยู่กับ event 
+
+
+propperty Element object 
+id - 
+innnerHTML 
+textContent 
+classList  -> class in object 
