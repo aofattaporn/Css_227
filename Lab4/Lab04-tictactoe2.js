@@ -20,8 +20,12 @@ function createSymbol(item, char){
 
 function checkEndGame(item, char){
 
+<<<<<<< HEAD
    if(      
       // win by row case 
+=======
+   if(      // win by row case 
+>>>>>>> 567ed9af96106438c4938e6f8ed9fa3d4c5d4d76
       (board[0][0] === char && board[0][1] === char && board[0][2] === char) || 
       (board[1][0] === char && board[1][1] === char && board[1][2] === char) ||
       (board[2][0] === char && board[2][1] === char && board[2][2] === char) ||
@@ -183,6 +187,7 @@ box.forEach(
 );
 
 function clear(){
+<<<<<<< HEAD
    let i = 1; 
 
    box.forEach(item => {
@@ -193,6 +198,14 @@ function clear(){
    });
 
 
+=======
+   box.forEach(item => {
+      item.className = 'box box-' + item.index ;
+      item.classList.add = 'box-1';
+      item.innerHTML = '';
+      item.addEventListener('click', startPlaying);
+   });
+>>>>>>> 567ed9af96106438c4938e6f8ed9fa3d4c5d4d76
 }
 
 reset.addEventListener('click', clear)
