@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>OS</title>
+
+   <style> 
+
+   *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+   }
+
+   main{
+      margin: 5rem 10rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 2rem;
+   }
+
+   h1{
+      text-align: center;
+   }
+
+   .section-1{
+      background-color: pink;
+      padding: 1rem;
+      border-radius: 1rem;
+      width: 25rem;
+      height: 50rem;
+
+      display: flex;
+      flex-direction: column;
+   }
+
+   .section-2{
+      background-color: rgb(255, 246, 192);
+      padding: 1rem;
+      border-radius: 1rem;
+      width: 50rem;
+      height: 50rem;
+   }
+
+
+
+   </style>
+</head>
+
+<body>
+   
+   <main>
+
+      <section class="section-1">
+         <h1>Input</h1>
+
+         <label for="Algorithm">Algorithm</label>
+         <select>
+            <option value="1">MBB 1</option>
+            <option value="2">MBB 2</option>
+         </select>
+
+         <label for="Arrival_Times">Arrival Times</label>
+         <input type="text">
+
+         <label for="Burst_Times">Burst Times</label>
+         <input type="text">
+
+      </section>
+
+      <section class="section-2"><h1>Output</h1></section>
+      
+   </main>
+</body>
+
+</html>
