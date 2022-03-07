@@ -29,8 +29,8 @@ const addTwoNumber = addReturning(1, 6);
 console.log('Returning : ', addTwoNumber());
 
 //    3.3 Accepting a function as an argument 
-function addNumber(a, b){
-   
+function addNumber(a, b){ 
+
 }
 
 
